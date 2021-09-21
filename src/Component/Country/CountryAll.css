@@ -1,0 +1,8 @@
+.country-card-style{
+    background-color: rgb(67, 10, 85);
+    margin: 10px;
+    padding: 1.25rem;
+    color: aqua;
+    border-radius: .3125rem;
+    height: auto;
+}

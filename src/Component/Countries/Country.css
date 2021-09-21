@@ -1,0 +1,26 @@
+.header{
+    background-color: skyblue;
+    padding: 1.875rem;
+    font-size: 1.5625rem;
+    font-weight: bold;
+}
+.grid-style{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+@media only screen and (max-width:768px) {
+    .grid-style{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+.country-card-style{
+    background-color: rgb(67, 10, 85);
+    margin: 10px auto;
+    padding: 1.25rem;
+    color: aqua;
+    border-radius: .3125rem;
+    height: auto;
+    width: 500px;
+}
+}
